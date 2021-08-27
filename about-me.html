@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+  <div class=container>
+  <header>
+    <h1 class="top-bar">Jacob Chan</h1>
+  </header>
+  <div id="nav_container" class="split left-nav-bar">
+    <nav id="home_nav">
+      <a href="#">About Me</a>
+    </nav>
+    <div>
+      <h2>Personal Tastes</h2>
+      <nav>
+        <ul class ="nav-ul">
+          <li class ="nav-li">
+            <a href="games.html">Games</a>
+          </li>
+          <li class ="nav-li">
+            <a href="songs.html">Songs</a>
+          </li>
+          <li class ="nav-li">
+            <a href="tv-shows.html">Tv Shows</a>
+          </li>
+          <li class ="nav-li">
+            <a href="movies.html">Movies</a>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <section>
+    <div class="split right-content">
+      <div class="dark-background">
+        <div class="subtitle">About Me</div> <br />
+        <p id="about_me">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus ut justo at facilisis. Suspendisse diam quam, pretium eu tortor at, luctus aliquam turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean vitae tellus tempor, accumsan neque vel, interdum sapien. Suspendisse potenti. Cras eget lectus vel enim pulvinar laoreet vitae a risus. Aliquam odio odio, volutpat non maximus a, dictum nec sem. Nunc vitae interdum dolor, sed commodo libero. Maecenas vitae tortor lectus. Morbi rutrum sem nibh, ac laoreet dui ultricies eget. Proin nec porta nulla, fermentum consequat erat. Donec diam odio, molestie vel efficitur id, scelerisque nec odio. Fusce eu dignissim lacus.
+        </p>
+      </div>
+      <section id="hobbies" class="dark-background">
+      <h2>Hobbies</h2>
+      <div id="hobbies_table">
+        <p>
+          <input id="badminton_video_input" value="Badminton" type="button" onclick="ShowVideo()"></button>
+        </p>
+        <p>
+          <button>Bouldering</button>
+        </p>
+        <p>
+          <button>Gaming</button>
+        </p>
+        <p>
+          <button>Drawing</button>
+        </p>
+
+      </div>
+      <div id=hobbies_video_embed>
+        <iframe id="badminton_video_embed" width= 500px height=300px src="https://www.youtube.com/embed/O6VqAG6b--o" frameborder="0"
+        allowfullscreen ng-show="showvideo"></iframe>
+      </div>
+
+      </section>
+      <section id="projects_table" class="dark-background">
+      <h2>Projects</h2>
+      <table>
+      <tr>
+      <th>Project Name</th>
+      <th>Description</th>
+      <th>Date</th>
+      </tr>
+      <tr>
+      <td>Rocket Game</td>
+      <td>Created a 2D platform on Unity utilising rocket based physics</td>
+      <td>Pre Sparta Global</td>
+      </tr>
+      <tr>
+      <td>Rail Shooter</td>
+      <td>Created a 3D Railshooter on Unity using external entity assets, camera tracking libraries and rotation adjusting algorithms</td>
+      <td>Pre Sparta Global</td>
+      </tr>
+      <tr>
+      <td>Parachuting Company Business End</td>
+      <td>Utilising and demonstrating agile principles as a group we had create the front end for a parachuting company.</td>
+      <td>Week 1 of Sparta Global Course</td>
+      </tr>
+      <tr>
+      <td>Monster Hunter Journal</td>
+      <td>A 3 tier application made for the individual project week in Sparta Global </td>
+      <td>Week 6 of Sparta Global Course</td>
+      </tr>
+      <tr>
+      <td>Rick and Morty API Project</td>
+      <td>Working in groups we had to create a working test framework for a Rick and Morty API we had created</td>
+      <td>Week 8 of Sparta Global Course</td>
+      </tr>
+      </table>
+      </section>
+    </div>
+  </section>
+  <footer>
+    Sparta Global Copyright &copy;
+  </footer>
+  <script src="js/scripts.js"></script>
+    </div>
+</body>
+</html>
